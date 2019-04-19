@@ -23,3 +23,6 @@
 1. docker container run -d -p 3306:3306 --name db -e MYSQL_RANDOM_ROOT_PASSWORD=yes mysql
 1. docker container ls -a
 1. curl localhost:80
+1. docker container stop db
+1. docker container stop webhost
+1. docker container stop proxy
