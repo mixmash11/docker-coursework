@@ -14,7 +14,7 @@
 
 - use the -e (environment option) for myqsl to pass in MYSQL_RANDOM_ROOT_PASSWORD=yes
   - to view password:
-    - db container logs db
+    - docker container logs db
     - look for line with GENERATED ROOT PASSWORD
 
 ## Solution
